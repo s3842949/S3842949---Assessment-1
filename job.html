@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ideal Job - Assignment 1: My Profile</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<header>
+  <h2>Assignment 1: My Profile</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index1.html">Personal Information</a>
+      <a href="interest.html">Interest in IT</a>
+      <a href="job.html">Ideal Job</a>
+      <a href="profile.html">Personal Profile</a>
+      <a href="project.html">Project Idea</a></li>
+    </ul>
+  </nav>
+
+
+
+
+  <div class="container">
+  <article>
+    <h2>Ideal Job</h2>
+
+    <button type="button" class="collapsible">Show Job Advertisment</button>
+    <div class="content">
+      <li><a href="https://boards.greenhouse.io/spacex/jobs/5113815002?gh_jid=5113815002">Link to the advertisment</a></li>
+      <img src="img/job.jpg" alt="alternatetext">
+    </div>
+
+    <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+
+      <h1>A description of the position, and particularly what makes this position appealing to you.</h1>
+       <p>This is a position for a network engineer job at, drumroll…, SpaceX! My role, if I was to work at it, would be to manage and service one of Elon Musk’s ambitious projects – Starlink, which, once rolled out, will provide affordable satellite internet connectivity anywhere around the world. I have always been slightly passionate about space, rockets and satellites. Just a couple years ago my answer for my ideal job would be an astronaut. As a network engineer for the Starlink project, I would be required to work with and update satellite’s firmware, manage the connection between satellites and Earth, fix connectivity issues should they arise and integrate the Starlink network with existing networks on the ground. This position would allow me to work with a satellite constellation that will, one day, be compiled of tens of thousands of satellites, whilst staying in the IT industry and being a part of something that will change the future of the internet and the way we connect to it. SpaceX seems like a very exciting company to work for with a lot of potential for growth in the future should I choose to work on another project.</p>
+
+      <h1>A description of the skills, qualifications and experience required for the position.</h1>
+       <p>To work at this position, it would be expected that I have a bachelor’s degree in a technical or engineering sphere, which, luckily, my current course falls under. It would be required for me to understand how networks work, protocols that could be used, different types of connectivity, implementation of network security. Many, if not all, of those things are covered throughout my course here at RMIT, meaning in theory, I wouldn’t be required to complete any other bachelor or master courses to get this job. There are a couple mini-courses I would have to complete before applying though. A Cisco, Juniper or other certification of this sort is required. I would also be required to have at least 3 years of experience of working with and operating a service provider network.</p>
+
+      <h1>A description of the skills, qualifications and experience you currently have.</h1>
+       <p>Currently, I already have experience working with networks thanks to my position at a computer repair store, it’s definitely not sufficient enough to operate a constellation of network satellites, but I do have an understanding of how networks work and how to set them up, for example simply on a personal computer or even on servers. I now have almost one year of experience of working for said computer repair store, working with and repairing computers, software problems and even soldering circuit boards. In year 12 I completed a Software Development class in which I was taught visual basic and now thanks to this course at RMIT, I have a basic understanding of Python.</p>
+
+      <h1>A plan describing how you will obtain the skills, qualifications and experience required for the position, building on those you have now.</h1>
+       <p>Building on the skills I already have, I would firstly need to get much more comfortable with Python. I am currently learning Python as a part of this course which is also aided by my knowledge of coding methods thanks to learning Visual Basic back at school. I can build on my current understanding of networks throughout my current course and then I can learn any remaining aspects using online-courses or further work experience working with networks, that I’ll have to do for at least 3 years anyway as work experience is one of the prerequisites as well. I will have to complete a Cisco, Juniper or another course of this sort.</p>
+
+</article>
+
+
+</div>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
