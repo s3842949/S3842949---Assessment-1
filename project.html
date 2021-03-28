@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Personal Profile - Assignment 1: My Profile</title>
+<title>Project Idea - Assignment 1: My Profile</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="mystyle.css">
@@ -15,7 +15,7 @@
 <section>
   <nav>
     <ul>
-      <li><a href="index1.html">Personal Information</a>
+      <li><a href="index.html">Personal Information</a>
       <a href="interest.html">Interest in IT</a>
       <a href="job.html">Ideal Job</a>
       <a href="profile.html">Personal Profile</a>
@@ -23,70 +23,34 @@
     </ul>
   </nav>
 
-
-
-
   <div class="container">
   <article>
-    <h2>Personal Profile</h2>
+    <h2>Project Idea</h2>
+      <h1>Overview</h1>
+       <p>A very ambitious project idea of mine is a cloud computer. The main idea behind it is that people will no longer be bound to using multiple devices for different tasks, for example playing games on a game console, doing uni work on a laptop and using professional editing programs on a powerful computer – they will be able to do all of those tasks on any device they wish to use in the moment and then, should they choose to, even continue the exact same task on a different device right where they left it from. They won’t be limited to using only the devices they own either, they could just sign in to their account on their friends laptop or a computer at an internet café and gain instant access to all their files, programs and games with all of their personalised settings applied as soon as they sign in.</p>
 
-    <button type="button" class="collapsible">Myers-Briggs Personality Test Results</button>
-    <div class="content">
-      <li><a href="https://www.16personalities.com/free-personality-test">Link to the Myers-Briggs Personality Test</a></li>
-      <img src="img/16mind.jpg" alt="alternatetext">
-      <img src="img/16energy.jpg" alt="alternatetext">
-      <img src="img/16nature.jpg" alt="alternatetext">
-      <img src="img/16tactics.jpg" alt="alternatetext">
-      <img src="img/16identity.jpg" alt="alternatetext">
-    </div>
+      <h1>Motivation</h1>
+       <p>A ‘cloud computer’ will make a lot of the aspects of current computers much simpler for the user. At the moment, a lot of people own multiple computers, which aren’t very interconnected and carrying on with the work, that was started on a MacBook at uni, on a PC at home is not a very simple and fast task. In this example, it could even be impossible if an application used was a macOS specific one. And even if files, that were worked on, are copied onto a USB stick or are backed up in the cloud, program settings aren’t (unless a program has a sync feature), so changing anything around in the program, it’s layout for example, will not carry across to another device. A ‘cloud computer’ completely eradicates this issue, as the work done on a device is not simply being saved onto it and kept there, it’s all done through the cloud. Let me explain.</p>
 
-    <button type="button" class="collapsible">Learning Style Test Results</button>
-    <div class="content">
-      <li><a href="http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml">Link to the Learning Style Test</a></li>
-      <img src="img/learningstyle.jpg" alt="alternatetext">
-    </div>
+      <h1>Description</h1>
+       <p>The way this would work is such. A ‘cloud computer’ is made up of a couple interconnected systems: First, it’s servers operated by me. Some of them simply store user’s data – their documents, pictures, videos and so on. Others, will be running and streaming programs to user’s devices. Not every program a user decides to use will necessarily be streamed, Microsoft Office for example, is not a very power consuming suit, so it could run directly on a user’s device. A AAA game, however, could potentially be a bit too much for that device to handle, so it will actually be running on one of my servers and streamed to the user’s device. Same goes for macOS applications, they could in theory be lightweight enough to be able to comfortably run on the device, but said device might not have the capability to run a macOS app, so it will be streamed from a server running macOS. Console games can also be streamed using this service. And the second system is user’s devices. Ideally, those devices should be developed by me and running my software to interconnect them in the most efficient way. The way this device would work is, let’s say someone owns a laptop of my creation. It will be quipped with 4G or 5G connectivity, so it’s always connected to the internet and has access to my servers. Once the user signs in to his account, instead of loading his user-account from a drive inside the laptop, it will be loaded up directly from my servers, with the drive inside the laptop working as a caching drive, similar to SSDs that accelerate larger HDDs. All programs will be loaded up directly from my servers, eliminating the need to instal them, meaning they don’t take any space and that every program a user owns is straight away accessible to them. For example, should they choose to open Spotify, it will load up from the server and run on the laptop and then if they launch Final Cut Pro, it will get launched on one of my servers and will be streamed onto the laptop. If they then decide to continue editing on their PC, the stream can be simply opened up on that computer and they can continue the work on it without having to reimport any files. Same goes for games, the user could start playing a game on their phone on a train, with the game being streamed onto their phone, and then continue playing on their TV at home. If the user is planning to go somewhere they know won’t have any broadband coverage, they can choose which programs and files should be kept directly on the computer, so that they could still use the device even without internet. A ‘cloud computer’ would be a subscription service, to pay off the expenses of running the service.</p>
 
-    <button type="button" class="collapsible">Workplace Personality Test Results</button>
-    <div class="content">
-      <li><a href="https://www.monster.com/career-advice/article/workplace-personality-quiz-0817">Link to the Workplace Personality Test</a></li>
-      <img src="img/workplace.jpg" alt="alternatetext">
-    </div>
+      <h1>Tools and Technologies</h1>
+       <p>The idea of a ‘cloud computer’ is not exactly reinventing the wheel. There are already services that exist that do a lot of the same things, such as OneDrive and iCloud to store documents online, GeForce Now and Google Stadia to stream games. My service simply combines them into one product, but works similarly to them. There will need to be servers storing user’s data and app data, most likely running Linux; VPS servers to stream programs and games, which will run different operating systems, depending on the program’s need. Parsec is a good low-latency streaming program, that has an purchasable SDK, which the streaming function of my service could be based off.</p>
 
-    <script>
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
+      <h1>Skills Required</h1>
+       <p>As much as I would love to say that this is a project I will be able to complete with my current skillset and budget (watch me instantly lose marks for saying this) – it’s not. Ideally, a large initial investment would be necessary to purchase servers and professional programmers would be needed to write the software (as I am definitely not literate in programming languages enough to do this… yet). A scaled down version of this project is somewhat feasible to complete now though. With a single computer acting as a server and a laptop running Windows that will be connected to the computer to view user files and stream programs from it. The drive caching aspect of my idea, sadly, isn’t feasible at the moment, however everything else will be a good enough product to showcase the capabilities of such a system.</p>
 
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
-    });
-  }
-  </script>
-
-
-      <h1>What do the results of these tests mean for you?</h1>
-       <p>I agree with the results I have gotten. I’d say that I’m mostly an introverted person around new people. I usually don’t speak out that much and stick to the people I know. However, in a group of people I already know and that I’m comfortable with, I can sometimes be the loudest out of everyone and sometimes a bit too hyper. I definitely enjoy my ‘me time’ and find it much more relaxing than spending time with my friends as it usually tires me out. It’s one of the things I’m currently working on improving: trying to talk to more new people and being myself around them as well. I agree that I’m mostly intuitive. I stay open-minded, whether it’s a project I’m working on, an argument I’m having or a real world issue or, I always try to understand all sides of the story and ask questions to understand the other person better rather than convince them that I’m right (although I’m usually right). I do try to be more rational rather than emotional. It doesn’t always work out and my primal brain takes over, but I definitely try to stay think things through rather than act impulsively. My ‘tactics’ results came very close to being 50/50 between judging and prospecting. I can understand that. Although I try to stay organised, regularly make to-do lists and plan things in advance in my calendar, I can easily get distracted, like to procrastinate and can leave things until the last moment. But even if I may come off as lazy because of that, in the end, I do everything I was supposed to, even if it means I have to pull an all-nighter to finish my work. I agree that I’m mostly turbulent. I can easily get anxious in unfamiliar situations and there are definitely many things I’m self-conscious about, but recently I’ve started working on improving this aspect of my life. I started trying to put myself in uncomfortable situations and hide any signs of discomfort I’m having to prove to myself that everything is much simpler in the real-world rather than my head. I definitely agree that I am an auditory learner. I find it way easier to concentrate on new information if its read out to me or presented in a video rather than me having to read it. I still enjoy reading and am still able to remember the things I’m reading about, but if I have to learn something that’s not that interesting to me, I get easily distracted. I’ve agreed on all of the results I’ve gotten so fat, but I kind of disagree with my ‘Workplace Personality Quiz’ results. It describes me as a ‘Guardian’ who is ‘not one to speak up in meetings unless (I’m) entirely sure of (myself)’. I often enjoy adding my views and opinions to team conversations, even if they might be wrong, as I always want to hear other people’s take on my input, to improve my views in case they were a bit off, or to give the team as a whole more to work with.</p>
-
-      <h1>How do you think these results may influence your behaviour in a team?</h1>
-       <p>According to these results, I’ll be open-minded and take other people’s opinion on how to tackle the project into account, I will also want to assign myself parts of the project that I would want to complete and work on them independently where I can. I would take my time to thing, wouldn’t speak up unless I was 100% sure what I was about to say is fitting and right. I would be organised, even if I could slack off a little at times. This doesn’t exactly describe how I would actually work in a team environment. Although I agree that I would prefer to work independently, I would never do so if it had a negative impact on the project we would be working on. If the project requires collaboration, I will definitely put all my efforts in to communicate with others and solve issues together. I wouldn’t be afraid to speak out, even if I could be wrong. I do agree that I would be mostly organised, but could procrastinate a little now and then, but would still definitely finish all the work I was supposed to do and wouldn’t give in to my laziness if it affected the team.</p>
-
-      <h1>How should you take this into account when forming a team?</h1>
-       <p>When forming a team, ideally, I would want to work with people who think similarly to myself. In the past, I haven’t come across many people of that sort. I shouldn’t explicitly look for such people and definitely shouldn’t expect to find them. In a more realistic scenario, I reckon I would work best with people who are not too introverted, but not too extraverted either: not people who wouldn’t try and hide from everyone and be afraid to add anything to the team but also not people who would try to be the centre of attention, loud and annoying. I would work best with people who can provide input for the team to work with, who wouldn’t try and do as little as they possibly can and who wouldn’t be anxious or shy to talk. I believe these are the sort of people that, according to my results, I would work best with.</p>
+      <h1>Outcome</h1>
+       <p>If a scaled down version of the project was created, it would still successfully eliminate the need to own a powerful computer or a gaming console alongside a laptop or a home computer. Users will be able to access all of their data from any device and will have access to any program they want through streaming. I don’t believe loading programs directly off the server onto the laptop would be feasible right now, so programs will still need to be installed locally on said laptop. However, if the AppData folder is possible to be stored on the server, all program settings and pre-sets can be used on any device the user wishes to. Streaming mac apps, although possible, will probably work poorly at start without further development due to Parsec not being able to stream directly from a macOS device, however can be done using a capture card and streaming off a different device, same goes for consoles. It’s not the best way to do this, but is feasible. </p>
 
 </article>
-
 
 </div>
 </section>
 
 <footer>
-  <p>Footer</p>
+  <p>© 2021 Artem Potemkin S3842949</p>
 </footer>
 
 </body>
